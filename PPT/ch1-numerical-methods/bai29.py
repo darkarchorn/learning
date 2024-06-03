@@ -22,4 +22,4 @@ relative_error_1 = round(relative_error_1, 14)
 relative_error_2 = round(relative_error_2, 14)
 
 # Kết quả
-print((absolute_error_1, relative_error_1), (absolute_error_2, relative_error_2))
+print((absolute_error_1, f"{relative_error_1*100} %"), (absolute_error_2, f"{relative_error_2 * 100} %"))
